@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="lib-gui">
+        <file>error.gif</file>
+        <file>info.gif</file>
+        <file>query.gif</file>
+        <file>warning.gif</file>
+        <file>help.gif</file>
+        <file>msgdialog-tile.png</file>
+        <file>busy-exec-tile.png</file>
+        <file>busy-exec-edge.png</file>
+    </qresource>
+</RCC>
