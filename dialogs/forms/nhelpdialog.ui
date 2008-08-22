@@ -1,0 +1,568 @@
+<ui version="4.0" >
+ <class>NHelpDialog</class>
+ <widget class="QWidget" name="NHelpDialog" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>674</width>
+    <height>677</height>
+   </rect>
+  </property>
+  <property name="sizePolicy" >
+   <sizepolicy vsizetype="Maximum" hsizetype="Maximum" >
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize" >
+   <size>
+    <width>440</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize" >
+   <size>
+    <width>1920</width>
+    <height>1920</height>
+   </size>
+  </property>
+  <property name="baseSize" >
+   <size>
+    <width>440</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="palette" >
+   <palette>
+    <active>
+     <colorrole role="Window" >
+      <brush brushstyle="SolidPattern" >
+       <color alpha="255" >
+        <red>26</red>
+        <green>26</green>
+        <blue>26</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Window" >
+      <brush brushstyle="SolidPattern" >
+       <color alpha="255" >
+        <red>26</red>
+        <green>26</green>
+        <blue>26</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Window" >
+      <brush brushstyle="SolidPattern" >
+       <color alpha="255" >
+        <red>26</red>
+        <green>26</green>
+        <blue>26</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle" >
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2" >
+   <item rowspan="8" row="0" column="0" colspan="2" >
+    <widget class="Line" name="leftVerticalLine" >
+     <property name="minimumSize" >
+      <size>
+       <width>4</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="palette" >
+      <palette>
+       <active>
+        <colorrole role="Highlight" >
+         <brush brushstyle="SolidPattern" >
+          <color alpha="255" >
+           <red>99</red>
+           <green>99</green>
+           <blue>99</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="Highlight" >
+         <brush brushstyle="SolidPattern" >
+          <color alpha="255" >
+           <red>99</red>
+           <green>99</green>
+           <blue>99</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="Highlight" >
+         <brush brushstyle="SolidPattern" >
+          <color alpha="255" >
+           <red>217</red>
+           <green>217</green>
+           <blue>217</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="orientation" >
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2" >
+    <spacer>
+     <property name="orientation" >
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType" >
+      <enum>QSizePolicy::Preferred</enum>
+     </property>
+     <property name="sizeHint" stdset="0" >
+      <size>
+       <width>360</width>
+       <height>45</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item rowspan="8" row="0" column="4" >
+    <widget class="Line" name="rightVerticalLine" >
+     <property name="minimumSize" >
+      <size>
+       <width>4</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="palette" >
+      <palette>
+       <active>
+        <colorrole role="Highlight" >
+         <brush brushstyle="SolidPattern" >
+          <color alpha="255" >
+           <red>99</red>
+           <green>99</green>
+           <blue>99</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="Highlight" >
+         <brush brushstyle="SolidPattern" >
+          <color alpha="255" >
+           <red>99</red>
+           <green>99</green>
+           <blue>99</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="Highlight" >
+         <brush brushstyle="SolidPattern" >
+          <color alpha="255" >
+           <red>217</red>
+           <green>217</green>
+           <blue>217</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="orientation" >
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </item>
+   <item rowspan="4" row="2" column="1" >
+    <spacer>
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType" >
+      <enum>QSizePolicy::Maximum</enum>
+     </property>
+     <property name="sizeHint" stdset="0" >
+      <size>
+       <width>26</width>
+       <height>480</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item rowspan="2" row="1" column="2" >
+    <layout class="QGridLayout" >
+     <property name="horizontalSpacing" >
+      <number>5</number>
+     </property>
+     <property name="verticalSpacing" >
+      <number>0</number>
+     </property>
+     <item row="0" column="2" >
+      <widget class="QLabel" name="titleLabel" >
+       <property name="palette" >
+        <palette>
+         <active>
+          <colorrole role="WindowText" >
+           <brush brushstyle="SolidPattern" >
+            <color alpha="255" >
+             <red>225</red>
+             <green>225</green>
+             <blue>225</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText" >
+           <brush brushstyle="SolidPattern" >
+            <color alpha="255" >
+             <red>225</red>
+             <green>225</green>
+             <blue>225</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText" >
+           <brush brushstyle="SolidPattern" >
+            <color alpha="255" >
+             <red>118</red>
+             <green>116</green>
+             <blue>113</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="font" >
+        <font>
+         <family>Sans Serif</family>
+         <pointsize>24</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="alignment" >
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1" >
+      <widget class="QLabel" name="titleTagLabel" >
+       <property name="sizePolicy" >
+        <sizepolicy vsizetype="Preferred" hsizetype="Maximum" >
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="palette" >
+        <palette>
+         <active>
+          <colorrole role="WindowText" >
+           <brush brushstyle="SolidPattern" >
+            <color alpha="255" >
+             <red>225</red>
+             <green>225</green>
+             <blue>225</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText" >
+           <brush brushstyle="SolidPattern" >
+            <color alpha="255" >
+             <red>225</red>
+             <green>225</green>
+             <blue>225</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText" >
+           <brush brushstyle="SolidPattern" >
+            <color alpha="255" >
+             <red>118</red>
+             <green>116</green>
+             <blue>113</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="font" >
+        <font>
+         <family>Sans Serif</family>
+         <pointsize>24</pointsize>
+        </font>
+       </property>
+       <property name="text" >
+        <string>Help for</string>
+       </property>
+       <property name="alignment" >
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" >
+      <widget class="QLabel" name="iconLabel" >
+       <property name="sizePolicy" >
+        <sizepolicy vsizetype="Preferred" hsizetype="Preferred" >
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize" >
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
+       <property name="maximumSize" >
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item rowspan="4" row="2" column="3" >
+    <spacer>
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType" >
+      <enum>QSizePolicy::Maximum</enum>
+     </property>
+     <property name="sizeHint" stdset="0" >
+      <size>
+       <width>40</width>
+       <height>480</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="2" >
+    <spacer>
+     <property name="orientation" >
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType" >
+      <enum>QSizePolicy::Preferred</enum>
+     </property>
+     <property name="sizeHint" stdset="0" >
+      <size>
+       <width>360</width>
+       <height>30</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="4" column="2" >
+    <widget class="QScrollArea" name="textScrollArea" >
+     <property name="frameShape" >
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow" >
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy" >
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="widgetResizable" >
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents" >
+      <property name="geometry" >
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>562</width>
+        <height>392</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout" >
+       <item row="0" column="0" >
+        <widget class="QLabel" name="textLabel" >
+         <property name="palette" >
+          <palette>
+           <active>
+            <colorrole role="WindowText" >
+             <brush brushstyle="SolidPattern" >
+              <color alpha="255" >
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </active>
+           <inactive>
+            <colorrole role="WindowText" >
+             <brush brushstyle="SolidPattern" >
+              <color alpha="255" >
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </inactive>
+           <disabled>
+            <colorrole role="WindowText" >
+             <brush brushstyle="SolidPattern" >
+              <color alpha="255" >
+               <red>118</red>
+               <green>118</green>
+               <blue>117</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </disabled>
+          </palette>
+         </property>
+         <property name="wordWrap" >
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item row="5" column="2" >
+    <spacer>
+     <property name="orientation" >
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType" >
+      <enum>QSizePolicy::Maximum</enum>
+     </property>
+     <property name="sizeHint" stdset="0" >
+      <size>
+       <width>360</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="6" column="2" >
+    <widget class="QLabel" name="navigateLabel" >
+     <property name="palette" >
+      <palette>
+       <active>
+        <colorrole role="WindowText" >
+         <brush brushstyle="SolidPattern" >
+          <color alpha="255" >
+           <red>135</red>
+           <green>135</green>
+           <blue>135</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="WindowText" >
+         <brush brushstyle="SolidPattern" >
+          <color alpha="255" >
+           <red>135</red>
+           <green>135</green>
+           <blue>135</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="WindowText" >
+         <brush brushstyle="SolidPattern" >
+          <color alpha="255" >
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font" >
+      <font>
+       <family>Sans Serif</family>
+       <pointsize>12</pointsize>
+       <stylestrategy>PreferDefault</stylestrategy>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="text" >
+      <string>press Channel up/down to Scroll
+press Enter or Back or ? to close</string>
+     </property>
+     <property name="alignment" >
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap" >
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="2" >
+    <spacer>
+     <property name="orientation" >
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType" >
+      <enum>QSizePolicy::Preferred</enum>
+     </property>
+     <property name="sizeHint" stdset="0" >
+      <size>
+       <width>360</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+ <designerdata>
+  <property name="gridDeltaX" >
+   <number>5</number>
+  </property>
+  <property name="gridDeltaY" >
+   <number>5</number>
+  </property>
+  <property name="gridSnapX" >
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY" >
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible" >
+   <bool>true</bool>
+  </property>
+ </designerdata>
+</ui>
