@@ -38,7 +38,7 @@ class NHelpDialog : public QWidget, private Ui::NHelpDialog
 {
     Q_OBJECT
 public:
-    static NHelpDialog* ShowHelpBox(const QString& title, const QString& text, QWidget* parent = NULL);
+    static NHelpDialog* Show(const QString& title, const QString& text, QWidget* parent = NULL);
     explicit NHelpDialog(QWidget* parent = NULL);
     explicit NHelpDialog(const QString& title = QString( ), const QString& text = QString( ), QWidget* parent = NULL);
     virtual ~NHelpDialog( );

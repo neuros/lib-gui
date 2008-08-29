@@ -1,12 +1,20 @@
 <RCC>
     <qresource prefix="lib-gui">
-        <file>error.gif</file>
-        <file>info.gif</file>
-        <file>query.gif</file>
-        <file>warning.gif</file>
-        <file>help.gif</file>
-        <file>msgdialog-tile.png</file>
-        <file>busy-exec-tile.png</file>
-        <file>busy-exec-edge.png</file>
+	<file>error.gif</file>
+	<file>info.gif</file>
+	<file>query.gif</file>
+	<file>warning.gif</file>
+	<file>help.gif</file>
+	<file>msgdialog-tile.png</file>
+	<file>busy-exec-tile.png</file>
+	<file>busy-exec-edge.png</file>
+	<file>xim-16x16.png</file>
+	<file>xim-20x20.png</file>
+	<file>xim-24x24.png</file>
+	<file>xim-28x28.png</file>
+	<file>xim-32x32.png</file>
+	<file>xim-48x48.png</file>
+	<file>xim-64x64.png</file>
+	<file>xim-128x128.png</file>
     </qresource>
 </RCC>

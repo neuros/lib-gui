@@ -41,14 +41,14 @@
 #define HELP_ICON ":/lib-gui/help.gif"
 
 NHelpDialog::NHelpDialog(QWidget* parent)
-:QWidget(parent), d(new NHelpDialogPrivate)
+:QWidget(parent, Qt::Window), d(new NHelpDialogPrivate)
 {
     setupUi(this);
     init( );
 }
 
 NHelpDialog::NHelpDialog(const QString& title, const QString& text, QWidget* parent)
-:QWidget(parent), d(new NHelpDialogPrivate)
+:QWidget(parent, Qt::Window), d(new NHelpDialogPrivate)
 {
     setupUi(this);
     init( );
@@ -147,7 +147,7 @@ void NHelpDialog::keyPressEvent(QKeyEvent *event)
     }
 }
 
-NHelpDialog* NHelpDialog::ShowHelpBox(const QString& title, const QString& text, QWidget* parent)
+NHelpDialog* NHelpDialog::Show(const QString& title, const QString& text, QWidget* parent)
 {
     NHelpDialog* helper = new NHelpDialog(title, text, parent);
     helper->setAttribute(Qt::WA_DeleteOnClose, true);
