@@ -37,13 +37,15 @@ LIBS+= -lneux
 SOURCES +=	./dialogs/nmessagedialog.cpp \
 		./dialogs/nhelpdialog.cpp \
 		./dialogs/nbusywidget.cpp \
-		./settings/nvideoplaybacksettings.cpp
+		./settings/nvideoplaybacksettings.cpp \
+		./tools/nmultilanguage.cpp
 
 #Header Files
 HEADERS +=	./dialogs/nmessagedialog.h \
 		./dialogs/nhelpdialog.h \
 		./dialogs/nbusywidget.h \
-		./settings/nvideoplaybacksettings.h
+		./settings/nvideoplaybacksettings.h \
+		./tools/nmultilanguage.h
 
 #Form Files
 FORMS +=	./dialogs/forms/nmessagedialog.ui \
