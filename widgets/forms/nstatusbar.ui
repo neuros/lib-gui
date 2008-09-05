@@ -1,0 +1,86 @@
+<ui version="4.0" >
+ <class>NStatusBar</class>
+ <widget class="QWidget" name="NStatusBar" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>748</width>
+    <height>80</height>
+   </rect>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" >
+   <item rowspan="2" row="0" column="0" >
+    <widget class="QLabel" name="stInfoLabel" />
+   </item>
+   <item rowspan="2" row="1" column="1" >
+    <spacer name="horizontalSpacer" >
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType" >
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0" >
+      <size>
+       <width>30</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item rowspan="2" row="1" column="2" >
+    <widget class="NDateTimeLabel" name="stDateTimeLabel" >
+     <property name="toolTip" >
+      <string>Neuros Date and Time QLabel</string>
+     </property>
+     <property name="whatsThis" >
+      <string>Inherited from QLabel, custom it for displaying the date and time.</string>
+     </property>
+    </widget>
+   </item>
+   <item rowspan="2" row="1" column="3" >
+    <widget class="QLabel" name="stIconLabel" >
+     <property name="text" >
+      <string/>
+     </property>
+     <property name="pixmap" >
+      <pixmap resource="../../resources/lib-gui.qrc" >:/lib-gui/xim-28x28.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" >
+    <widget class="NProgressBar" name="stProgressBar" />
+   </item>
+   <item row="0" column="2" colspan="2" >
+    <spacer name="horizontalSpacer_2" >
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0" >
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>NDateTimeLabel</class>
+   <extends>QLabel</extends>
+   <header>ndatetimelabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>NProgressBar</class>
+   <extends>QProgressBar</extends>
+   <header>nprogressbar.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../../resources/lib-gui.qrc" />
+ </resources>
+ <connections/>
+</ui>
