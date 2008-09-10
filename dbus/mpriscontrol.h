@@ -68,7 +68,7 @@ public slots:
 	void DelTrack( int in0 );
 	int GetCurrentTrack();
 	int GetTracklistLength();
-	QVariantMap GetMetadata( int in0 );
+	QVariantMap GetTracklistMetadata( int in0 );
 	void SetLoop( bool in0 );
 	void SetRandom( bool in0 );
 

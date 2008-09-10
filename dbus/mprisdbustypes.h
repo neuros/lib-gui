@@ -46,13 +46,6 @@ enum MprisDBusCaps
 	UNKNOWN_CAP           = 1 << 7 /** Unknown Cap */
 };
 
-
-
-CAN_PLAY	
-CAN_SEEK	
-CAN_PROVIDE_METADATA	
-CAN_HAS_TRACKLIST	 
-
 struct MprisDBusVersion
 {
 	quint16 major;
